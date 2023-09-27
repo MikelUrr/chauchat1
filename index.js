@@ -8,6 +8,7 @@ const chauchat = (cargador) => {
         } else {
             if (z === 3) {
                 console.log("  ");
+                i--;
                 z = 0;
             } else {
                 console.log("pium!");
